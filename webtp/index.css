@@ -1,0 +1,162 @@
+
+h1{
+    color: brown ;
+    font-size: x-large;
+    font-weight: 900;
+    margin: left 20px;
+    text-align: center;
+    padding: 10px 15px 20px 25px;
+}
+h2{
+    color: palevioletred ;
+    font-size: x-large;
+    font-weight: 900;
+    margin: left 20px;
+    text-align: center;
+    padding: 10px 60px 20px 25px; 
+}
+h1:hover{
+    cursor: grab;
+    color: aqua;
+}
+.premier{
+    color: red ;
+    font-size: x-large;
+    font-weight: 200;
+    margin: left 20px;
+    text-align: center;
+}
+.btn{
+    margin: 0 0 0 100px;
+}
+
+.test{
+    padding: 20px 50px 40px 30px;
+}
+.dexieme{
+    color: yellow ;
+    font-size: x-large;
+    font-weight: 200;
+    margin: left 150px;
+    text-align: center;
+}
+
+.image1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 10px 5px;
+
+}
+.image1:hover{
+    cursor: ;
+    width: 400px;
+}
+
+.image2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.image3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.image4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.image5 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+body{
+    background-color: palegoldenrod;
+}
+.kawtar1{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.kawtar2{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.kawtar3{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.kawtar4{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+
+}
+.kawtar5{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.kawtar1:hover{
+    background-color: white;
+    cursor: grab;
+    width: 500px;
+}
+.kawtar2:hover{
+    background-color: black;
+    cursor: grab;
+}
+.kawtar3:hover{
+    background-color: seagreen;
+    cursor: grab;
+    width: 200px;
+}
+.kawtar4:hover{
+    background-color: olive;
+    cursor: grab;
+    width: 400px;
+}
+.kawtar5:hover{
+    background-color: pink;
+    cursor: grab;
+    width: 300px;
+}
+.divmer{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width : 400px) {
+    .dexieme{
+        color: black;
+    }
+    
+}
+@media screen and (max-width : 400px)and (min-width :1000 px) {
+    .dexieme{
+        color: lightcyan;
+    }
+    
+}
+
+
+
